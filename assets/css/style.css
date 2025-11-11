@@ -1,5 +1,4 @@
-
-body{
+body {
 
     margin: 0px;
     background-color: hsl(0, 0%, 45%);
@@ -12,7 +11,15 @@ body{
 
 /* body  */
 
-#calculator{
+#calculator-body {
+
+    background-color: black;
+    padding: 12px;
+    border-radius: 20px;
+
+}
+
+#calculator {
 
     font-family: arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
@@ -24,34 +31,40 @@ body{
 
 /* Display  */
 
-#display{
+#display {
 
     width: 100%;
     padding: 20px;
     font-size: 5rem;
     text-align: left;
-    border: none;
     color: white;
     background-color: hsl(0, 0%, 20%);
 
 }
 
+#display-outline {
+
+    padding: 5px;
+    background-color: black;
+
+}
+
 /* button  */
 
-button{
+button {
 
     width: 100px;
     height: 100px;
     border-radius: 50%;
     border: none;
-    background-color:  hsl(0, 0%, 30%);
+    background-color: hsl(0, 0%, 30%);
     color: white;
     font-size: 3rem;
     font-weight: bold;
     cursor: pointer;
 }
 
-#keys{
+#keys {
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -61,31 +74,31 @@ button{
 
 }
 
-.function-btn{
+.function-btn {
 
     background-color: hsl(39, 100%, 50%);
 
 }
 
-button:hover{
+button:hover {
 
     background-color: hsl(0, 0%, 40%);
 
 }
 
-button:active{
+button:active {
 
     background-color: hsl(0, 0%, 50%);
 
 }
 
-.function-btn:hover{
+.function-btn:hover {
 
     background-color: hsl(39, 100%, 65%);
 
 }
 
-.function-btn:active{
+.function-btn:active {
 
     background-color: hsl(39, 100%, 75%);
 

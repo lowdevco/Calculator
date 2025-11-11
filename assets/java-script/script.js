@@ -1,26 +1,26 @@
- // Calculator JS
+// Calculator JS
 
 const display = document.getElementById("display");
 
-function showOnDisplay(input){
+function showOnDisplay(input) {
 
     display.value += input;
 
- }
+}
 
-function calculate(){
+function calculate() {
 
-   try{
-       display.value = eval(display.value);
-   } catch (error) {
-       display.value = "Error";
-   }
+    try {
+        display.value = eval(display.value);
+    } catch (error) {
+        display.value = "Error";
+    }
 
- }
+}
 
-function clearDisplay(){
+function clearDisplay() {
 
     display.value = " ";
 
- }
+}
 
